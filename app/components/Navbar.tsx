@@ -1,46 +1,3 @@
-// import React from 'react'
-// import Ellipse from '../assets/Ellipse 6.png'
-// import Image from 'next/image'
-// function Navbar() {
-//   return (
-//     <div className='px-3'>
-       
-//     <div className='flex flex-row justify-between px-11'>
-        
-//         <div className='pt-2'>
-//             <p className='text-3xl font-semibold z-50'> <span className='text-[#1E59CC]'>Solar</span> Crafts</p>
-          
-//         </div>
-//         <div className='absolute left-44'>
-//             <Image src={Ellipse} alt='' className='w-80'></Image>
-//         </div>
-        
-       
-//         <div>
-//         <ul className='cursor-pointer flex flex-row gap-12 pt-4'>
-//     <li className='hover:text-[#1E59CC]'>Home</li>
-//     <li className='hover:text-[#1E59CC]'>Features</li>
-//     <li className='hover:text-[#1E59CC]'>Pricing</li>
-    
-// </ul>
-
-//         </div>
-//         <div className='flex flex-row gap-9 pt-2'>
-//             <button className='w-[120px] h-[40px] border-2 border-[#1E59CC] rounded-[30px]'>
-//                 Sign Up
-//             </button>
-//             <button className='w-[120px] h-[42px] bg-gradient rounded-[30px]'>
-//                 Login
-//             </button>
-//         </div>
-        
-//     </div>
-//     </div>
-//   )
-// }
-
-// export default Navbar
-
 'use client'
 import React, { useState } from 'react';
 import Ellipse from '../assets/Ellipse 6.png';
@@ -54,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <div className="px-3">
+    <div className={`relative px-3 ${isOpen ? 'pb-1' : ''} md:pb-0`}>
       <div className="flex flex-row justify-between px-11">
         <div className="pt-2">
           <p className="text-3xl font-semibold z-50">
@@ -123,7 +80,7 @@ function Navbar() {
 
       {/* Dropdown Menu for Mobile */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 w-full bg-blue-500 shadow-lg z-50">
+        <div className="md:hidden w-full bg-blue-500 shadow-lg z-50">
           <ul className="cursor-pointer flex flex-col items-center gap-6 py-4">
             <li className="hover:text-[#1E59CC]">Home</li>
             <li className="hover:text-[#1E59CC]">Features</li>
@@ -142,3 +99,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
