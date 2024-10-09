@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google"; // Import Poppins from Google Fonts
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 // Define the Poppins font
 const poppins = Poppins({
@@ -9,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
-  description: "Solar Crafts",
+  title: "Solar Crafts",
+  description: "",
 };
 
 export default function RootLayout({
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
+        <Navbar/>
         {children}
       </body>
     </html>
