@@ -21,14 +21,14 @@ function Hero() {
           <button className='w-[200px] h-[45px] bg-[#294680] text-white rounded-md'>
             Get Started Now
           </button>
-          <p className='pt-2 md:pt-1 text-sm text-center md:text-left'>Or</p>
-          <Link href={'/'} className='text-[#294680] pt-2 md:pt-1 text-sm text-center md:text-left'>
+          <p className='pt-2 md:pt-2 text-sm text-center md:text-left'>Or</p>
+          <Link href={'/'} className='text-[#294680] pt-3 md:pt-2 text-sm text-center md:text-left'>
             Download our mobile app
           </Link>
         </div>
       </div>
 
-      <div className='flex justify-center md:justify-end mt-8 md:mt-0 md:w-1/2'>
+      <div className='flex justify-center md:justify-center mt-8 md:mt-0 md:w-1/2'>
         <Image src={HeroImage} alt='' className='w-[300px] h-[240px] md:w-[450px] md:h-[480px]'></Image>
       </div>
     </div>
