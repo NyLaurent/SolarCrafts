@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className='pt-20 px-9 flex flex-col md:flex-row'>
       <div className='md:w-1/2'>
-        <h1 className='text-[24px] md:text-[30px]'>
+        <h1 className='text-[24px] font-bold md:text-[30px]'>
           Explore and Learn <br />
           More About our Solar System
         </h1>
