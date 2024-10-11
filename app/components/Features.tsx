@@ -18,7 +18,7 @@ function Features() {
 
             <div className='lg:w-1/2'>
                 <div>
-                    <h1 className='text-lg font-bold'>Advanced Solar System Courses for Students</h1>
+                    <h1 className='text-lg font-bold text-[#294680] relative left-3'>Advanced Solar System Courses for Students</h1>
                 </div>
                 
                 <div>
