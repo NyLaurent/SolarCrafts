@@ -2,6 +2,7 @@ import React from 'react'
 import Placeholder from '../assets/placeholder.png'
 import Image from 'next/image'
 import Icon from '../assets/Icon.png'
+import feature from '../assets/feature.png'
 
 function Features() {
   return (
@@ -13,7 +14,7 @@ function Features() {
         
         <div className='flex flex-col lg:flex-row gap-8 lg:gap-24 px-6 lg:px-12'>
             <div className='lg:w-1/2'>
-                <Image src={Placeholder} alt='' className='w-full lg:w-[1000px]'></Image>
+                <Image src={feature} alt='' className='w-full lg:w-[1000px]'></Image>
             </div>
 
             <div className='lg:w-1/2'>
