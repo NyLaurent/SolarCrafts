@@ -27,7 +27,7 @@ function Navbar() {
           <ul className="cursor-pointer flex flex-row gap-12">
             <li className="hover:text-[#1E59CC]">Home</li>
             <li className="hover:text-[#1E59CC]">Features</li>
-            <li className="hover:text-[#1E59CC]">Pricing</li>
+            <li className="hover:text-[#1E59CC]">Testimonials</li>
           </ul>
         </div>
 
