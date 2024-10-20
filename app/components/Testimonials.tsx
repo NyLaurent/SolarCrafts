@@ -1,4 +1,5 @@
 import React from 'react'
+import testimonial from '../assets/testimonial.png'
 
 function Testimonials() {
   return (
