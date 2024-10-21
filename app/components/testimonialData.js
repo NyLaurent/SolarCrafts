@@ -1,7 +1,7 @@
 export const testimonialsData = [
     {
       id: 1,
-      image: '/app/assets/Witness.png', // Add the correct path to your image
+      image: '/assets/Witness.png', // Add the correct path to your image
       quote: "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Solarcraft is exactly what our business has been lacking.",
       name: "Gloria Rose"
     },

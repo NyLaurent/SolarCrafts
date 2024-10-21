@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import testimonial from '../assets/testimonial.png'
+import testimonial from '../../assets/testimonial.png'
 import Testimonial from './Testimonial'
 function Testimonials() {
   return (
