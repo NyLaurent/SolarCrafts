@@ -7,13 +7,13 @@ export const testimonialsData = [
     },
     {
       id: 2,
-      image: '/path-to-image/witness2.jpg',
+      image: '/assets/Witness.png',
       quote: "Solarcraft has transformed the way we operate. The time savings and efficiency improvements are outstanding. I highly recommend their services.",
       name: "Michael Green"
     },
     {
       id: 3,
-      image: '/path-to-image/witness3.jpg',
+      image: '/assets/Witness.png',
       quote: "It's been a pleasure working with Solarcraft. Their dedication and attention to detail have helped us achieve our business goals more quickly.",
       name: "Alex Johnson"
     }
