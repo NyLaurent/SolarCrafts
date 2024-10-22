@@ -1,5 +1,4 @@
 import React from 'react'
-import Placeholder from '../assets/placeholder.png'
 import Image from 'next/image'
 import Icon from '../../assets/Icon.png'
 import feature from '../../assets/feature.png'
