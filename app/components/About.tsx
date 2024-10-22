@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Meteor from '../assets/Meteor.png'
-import SolarP from '../assets/solarP.png'
+import Meteor from '../../assets/Meteor.png'
+import SolarP from '../../assets/solarP.png'
 
 function About() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Virtual from '../assets/VR.png'
+import Virtual from '../../assets/VR.png'
 
 function VR() {
   return (

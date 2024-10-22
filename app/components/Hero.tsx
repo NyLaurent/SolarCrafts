@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import HeroImage from '../assets/Hero.png'
+import HeroImage from '../../assets/Hero.png'
 
 function Hero() {
   return (
